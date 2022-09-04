@@ -1,0 +1,13 @@
+name: procava_ifr
+title: procava_ifr
+username:
+account: farfp
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 6761057
+bundleId: 6241722
+url: https://farfp.shinyapps.io/procava_ifr/
+when: 1661538152.67226
+lastSyncTime: 1661538152.67228
+asMultiple: FALSE
+asStatic: FALSE
