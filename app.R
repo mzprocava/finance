@@ -34,7 +34,7 @@ db_password <- "MZ;PROCAVA"
 pool <- dbPool(RPostgres::Postgres(), dbname = db, host=host_db, port=db_port, user=db_user, password=db_password)
 onStop(function() {poolClose(pool)})
 
-
+################
 metas_granulares <- DBI::dbGetQuery(pool, "SELECT * FROM procava.granular_targets")
 e_sistafe_ced <- read_feather("e_sistafe.feather", columns = c("esistafe_key", "e_sistafe_w_code"))
 awpb_granular <- read_feather("granular_awpb_2022.feather")
